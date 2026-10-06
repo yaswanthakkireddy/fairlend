@@ -6,16 +6,14 @@
 
 <br>
 
-[![Open Live App](https://img.shields.io/badge/Open%20Live%20App-534AB7?style=for-the-badge&logo=streamlit&logoColor=white)](https://yaswtutu-fairlend.hf.space)
-[![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/yaswtutu/fairlend)
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/yaswankum2622-code/fairlend/ci.yml?style=for-the-badge&label=CI&logo=github)](https://github.com/yaswankum2622-code/fairlend/actions)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/yaswanthakkireddy/fairlend/ci.yml?style=for-the-badge&label=CI&logo=github)](https://github.com/yaswanthakkireddy/fairlend/actions)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License MIT](https://img.shields.io/badge/License-MIT-1D9E75?style=for-the-badge)](LICENSE)
 
 <br>
 <br>
 
-<img src="https://raw.githubusercontent.com/yaswankum2622-code/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220513.png" alt="FairLend dashboard model comparison" width="92%">
+<img src="https://raw.githubusercontent.com/yaswanthakkireddy/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220513.png" alt="FairLend dashboard model comparison" width="92%">
 
 </div>
 
@@ -47,7 +45,7 @@ FairLend is built around the real problem:
 | Live demo runtime | Synthetic fallback when raw HMDA CSV is unavailable |
 | Explainability | SHAP per-applicant waterfall |
 | Compliance tooling | ECOA letters, NL to SQL chat, EU AI Act checklist |
-| Deployment | Streamlit on Hugging Face Spaces |
+| Demo status | Public demo link removed while the hosted Space is unavailable |
 | Test suite | 34 passing pytest checks |
 
 ---
@@ -59,9 +57,9 @@ The repository documents two different operating modes, and they should not be m
 | Environment | Data source | What it is for | What can differ |
 |---|---|---|---|
 | Full benchmark | 500,000-row HMDA 2024 sample | Model evaluation, documentation, repo claims | Best accuracy and fairness numbers |
-| Public Hugging Face demo | Synthetic fallback when the raw CSV is not present | Interactive product demo and UI walkthrough | Dashboard metrics, fairness ratios, and EU AI Act status cards |
+| Demo configuration | Synthetic fallback when the raw CSV is not present | Local/product walkthrough mode | Dashboard metrics, fairness ratios, and EU AI Act status cards |
 
-That means the **tables below are the full benchmark results**, while the screenshots may reflect the current live demo runtime.
+That means the **tables below are the full benchmark results**, while screenshots may reflect the demo configuration.
 
 ---
 
@@ -86,15 +84,15 @@ Three out of four trained models fail the fairness threshold even without race o
 
 | Model Comparison | Fairness Audit |
 |---|---|
-| <img src="https://raw.githubusercontent.com/yaswankum2622-code/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220607.png" alt="Model fairness view" width="100%"> | <img src="https://raw.githubusercontent.com/yaswankum2622-code/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220904.png" alt="Fairness audit view" width="100%"> |
+| <img src="https://raw.githubusercontent.com/yaswanthakkireddy/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220607.png" alt="Model fairness view" width="100%"> | <img src="https://raw.githubusercontent.com/yaswanthakkireddy/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220904.png" alt="Fairness audit view" width="100%"> |
 
 | Applicant Explorer | Compliance Chat |
 |---|---|
-| <img src="https://raw.githubusercontent.com/yaswankum2622-code/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220755.png" alt="Applicant explorer view" width="100%"> | <img src="https://raw.githubusercontent.com/yaswankum2622-code/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20221036.png" alt="Compliance chat view" width="100%"> |
+| <img src="https://raw.githubusercontent.com/yaswanthakkireddy/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20220755.png" alt="Applicant explorer view" width="100%"> | <img src="https://raw.githubusercontent.com/yaswanthakkireddy/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20221036.png" alt="Compliance chat view" width="100%"> |
 
 | EU AI Act Report |
 |---|
-| <img src="https://raw.githubusercontent.com/yaswankum2622-code/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20221112.png" alt="EU AI Act report view" width="100%"> |
+| <img src="https://raw.githubusercontent.com/yaswanthakkireddy/fairlend/main/VISUAL%27S/Screenshot%202026-04-16%20221112.png" alt="EU AI Act report view" width="100%"> |
 
 The current EU AI Act screenshot reflects the **live demo state**. In demo mode, the report can show **REVIEW REQUIRED (9/10)** even though the full benchmark environment documented in this repo reaches **COMPLIANT (10/10)**.
 
@@ -148,7 +146,7 @@ That is the point of FairLend: **removing race from the feature list is not the 
 ## Quick Start
 
 ```bash
-git clone https://github.com/yaswankum2622-code/fairlend.git
+git clone https://github.com/yaswanthakkireddy/fairlend.git
 cd fairlend
 pip install -r requirements.txt
 
