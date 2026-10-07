@@ -46,7 +46,7 @@ FairLend is built around the real problem:
 | Explainability | SHAP per-applicant waterfall |
 | Compliance tooling | ECOA letters, NL to SQL chat, EU AI Act checklist |
 | Demo status | Public demo link removed while the hosted Space is unavailable |
-| Test suite | 34 passing pytest checks |
+| Test suite | 34 collected: 15 passed, 19 skipped in the [2026-10-06 CI run](https://github.com/yaswanthakkireddy/fairlend/actions/runs/37529471136/job/112494840271) |
 
 ---
 
@@ -205,7 +205,7 @@ FairLend/
 
 <div align="center">
 
-### Built by Yashwanth
+### Built by Yaswanth Kumar Akkireddy
 
 **M.Tech CSE | Business Analytics | VIT Chennai | Bengaluru**
 
